@@ -3,8 +3,26 @@
   "description": "Base Level Extension",
   "version": "1.0",
   "manifest_version": 3,
+  "icons": {
+    "16": "hello_extensions.png",
+    "48": "hello_extensions.png",
+    "128": "hello_extensions.png"
+  },
+  "content_scripts": [
+    {
+        "matches": ["https://calendar.google.com/*"],
+        "js": ["content.js"]
+    }
+  ],
   "action": {
-    "default_popup": "hello.html",
+    "default_popup": "popup.html",
     "default_icon": "hello_extensions.png"
+  },
+  "web_accessible_resources": [
+  {
+    "resources": ["flower.png"],
+    "matches": ["https://calendar.google.com/*"]
   }
+],
+  "permissions": ["storage"]
 }

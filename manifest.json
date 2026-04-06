@@ -20,7 +20,7 @@
   },
   "web_accessible_resources": [
   {
-    "resources": ["flower.png", "measurements.json"],
+    "resources": ["flower.png", "yellow_flower.png", "measurements.json"],
     "matches": ["https://calendar.google.com/*"]
   }
 ],

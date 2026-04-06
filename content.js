@@ -1,6 +1,7 @@
 console.log("Faye loaded!");
 
 const flowerURL = chrome.runtime.getURL("flower.png");
+const predictedFlowerURL = chrome.runtime.getURL("yellow_flower.png");
 
 function dateToKey(dateStr) {
   const date = new Date(dateStr);
@@ -20,12 +21,58 @@ fetch(chrome.runtime.getURL("measurements.json"))
       }
     });
     console.log("Marked keys:", [...markedKeys].sort((a,b) => a-b));
+    
+    const startKeys = [...markedKeys].filter(key => !markedKeys.has(key - 1));
+    console.log("Period starts:", startKeys.sort((a,b) => a-b));
 
-function addFlower(cell) {
+    const gaps = [];
+    for (let i = 1; i < startKeys.length; i++) {
+      gaps.push(startKeys[i] - startKeys[i - 1]);
+    }
+    const cleanGaps = gaps.filter(g => g >= 20 && g <= 45);
+    const avgCycle = Math.round(cleanGaps.reduce((sum, g) => sum + g, 0) / cleanGaps.length);
+    console.log("Average cycle length:", avgCycle, "days");
+    console.log("Cycle gaps:", cleanGaps);
+
+    const lastStart = startKeys[startKeys.length - 1];
+
+    const periodLengths = [];
+
+    let count = 1;
+    for (let i = 1; i < [...markedKeys].sort((a,b) => a-b).length; i++) {
+        const sorted = [...markedKeys].sort((a,b) => a-b);
+        if (sorted[i] === sorted[i-1] + 1) {
+            count++;
+        } else {
+            periodLengths.push(count);
+            count = 1;
+        }
+    }
+    periodLengths.push(count);
+    const avgPeriodLength = Math.round(periodLengths.reduce((sum, l) => sum + l, 0) / periodLengths.length);
+    console.log("Starting period length calculation...");
+    console.log("Average period length:", avgPeriodLength, "days");
+
+    const predictions = [];
+
+    for (let i = 1; i <= 6; i++) {
+      predictions.push(lastStart + avgCycle * i);
+    }
+    const predictionKeys = new Set();
+    predictions.forEach(startKey => {
+    for (let i = 0; i < avgPeriodLength; i++) {
+      predictionKeys.add(startKey + i);
+    }
+  });
+    console.log("Prediction keys:", [...predictionKeys].sort((a,b) => a-b));
+
+    console.log("Predicted keys:", predictions);
+
+function addFlower(cell, imageURL) {
     if (cell.querySelector(".period-flower"))
         return;
     const img = document.createElement("img");
-    img.src = flowerURL;
+    img.src = imageURL;
     img.className = "period-flower";
     img.style.height = "25px";
     img.style.width = "25px";
@@ -45,9 +92,17 @@ function findCells() {
     console.log("Cell key:", key);
 
     if (markedKeys.has(key)) {
-      addFlower(cell)
+      addFlower(cell, flowerURL)
+    } else if (predictionKeys.has(key)) {
+      addFlower(cell, predictedFlowerURL)
     }
   });
+  cells.forEach(cell => {
+    const key = parseInt(cell.getAttribute("data-datekey"));
+    if (key === 28833 || key === 28834) {
+        console.log("Found May 3/4 cell!", cell);
+    }
+});
 }
 
 const observer = new MutationObserver(() => {

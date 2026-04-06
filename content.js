@@ -20,10 +20,10 @@ fetch(chrome.runtime.getURL("measurements.json"))
         markedKeys.add(key);
       }
     });
-    console.log("Marked keys:", [...markedKeys].sort((a,b) => a-b));
+    //console.log("Marked keys:", [...markedKeys].sort((a,b) => a-b));
     
     const startKeys = [...markedKeys].filter(key => !markedKeys.has(key - 1));
-    console.log("Period starts:", startKeys.sort((a,b) => a-b));
+    //console.log("Period starts:", startKeys.sort((a,b) => a-b));
 
     const gaps = [];
     for (let i = 1; i < startKeys.length; i++) {
@@ -31,10 +31,13 @@ fetch(chrome.runtime.getURL("measurements.json"))
     }
     const cleanGaps = gaps.filter(g => g >= 20 && g <= 45);
     const avgCycle = Math.round(cleanGaps.reduce((sum, g) => sum + g, 0) / cleanGaps.length);
-    console.log("Average cycle length:", avgCycle, "days");
-    console.log("Cycle gaps:", cleanGaps);
+    //console.log("Average cycle length:", avgCycle, "days");
+    //console.log("Cycle gaps:", cleanGaps);
 
-    const lastStart = startKeys[startKeys.length - 1];
+    const sortedStartKeys = startKeys.sort((a,b) => a-b);
+    const lastStart = sortedStartKeys[sortedStartKeys.length - 1];
+    //console.log("Last start key:", lastStart);
+    //console.log("First prediction:", lastStart + avgCycle);
 
     const periodLengths = [];
 
@@ -50,8 +53,8 @@ fetch(chrome.runtime.getURL("measurements.json"))
     }
     periodLengths.push(count);
     const avgPeriodLength = Math.round(periodLengths.reduce((sum, l) => sum + l, 0) / periodLengths.length);
-    console.log("Starting period length calculation...");
     console.log("Average period length:", avgPeriodLength, "days");
+    //console.log("Starting period length calculation...");
 
     const predictions = [];
 
@@ -61,12 +64,13 @@ fetch(chrome.runtime.getURL("measurements.json"))
     const predictionKeys = new Set();
     predictions.forEach(startKey => {
     for (let i = 0; i < avgPeriodLength; i++) {
+      //console.log("adding period length:", avgPeriodLength);
       predictionKeys.add(startKey + i);
     }
   });
-    console.log("Prediction keys:", [...predictionKeys].sort((a,b) => a-b));
+    //console.log("Prediction keys:", [...predictionKeys].sort((a,b) => a-b));
 
-    console.log("Predicted keys:", predictions);
+    //console.log("Predicted keys:", predictions);
 
 function addFlower(cell, imageURL) {
     if (cell.querySelector(".period-flower"))
@@ -81,7 +85,7 @@ function addFlower(cell, imageURL) {
     img.style.position = "absolute";
     cell.style.position = "relative";
     cell.appendChild(img);
-    console.log("Adding flower to:", cell);
+    //console.log("Adding flower to:", cell);
 }
 
 function findCells() {
@@ -89,7 +93,7 @@ function findCells() {
 
   cells.forEach(cell => {
     const key = parseInt(cell.getAttribute("data-datekey"));
-    console.log("Cell key:", key);
+    //console.log("Cell key:", key);
 
     if (markedKeys.has(key)) {
       addFlower(cell, flowerURL)
@@ -97,12 +101,6 @@ function findCells() {
       addFlower(cell, predictedFlowerURL)
     }
   });
-  cells.forEach(cell => {
-    const key = parseInt(cell.getAttribute("data-datekey"));
-    if (key === 28833 || key === 28834) {
-        console.log("Found May 3/4 cell!", cell);
-    }
-});
 }
 
 const observer = new MutationObserver(() => {

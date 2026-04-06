@@ -1,0 +1,1203 @@
+[
+  {
+    "type": "pain",
+    "id": "c6d06278-e5df-4b8a-8161-c26a2b218a48",
+    "date": "2024-04-09",
+    "value": [
+      {
+        "option": "period_cramps"
+      },
+      {
+        "option": "headache"
+      },
+      {
+        "option": "vulvar"
+      }
+    ]
+  },
+  {
+    "type": "pain",
+    "id": "4fa8193e-acf0-42ef-a4d6-6cb988b9dc65",
+    "date": "2024-11-30",
+    "value": [
+      {
+        "option": "period_cramps"
+      },
+      {
+        "option": "vulvar"
+      }
+    ]
+  },
+  {
+    "type": "pain",
+    "id": "83241992-7242-4d81-8e22-62862bdee432",
+    "date": "2025-03-17",
+    "value": [
+      {
+        "option": "period_cramps"
+      }
+    ]
+  },
+  {
+    "type": "period",
+    "id": "663b73c5-859d-4eb8-a488-e2ec0c80856b",
+    "date": "2023-03-11",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "d9fa1990-91fc-4b65-ad11-78e82d64fa40",
+    "date": "2023-03-12",
+    "value": {
+      "option": "heavy"
+    }
+  },
+  {
+    "type": "period",
+    "id": "457273af-7bfa-492b-be0b-0a477b3adb3e",
+    "date": "2023-03-13",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "76aedceb-1246-4cdf-828a-3096000ffeb3",
+    "date": "2023-03-14",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "199deb6f-d57c-4464-93ea-364169dccbac",
+    "date": "2023-04-01",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "b951ca8a-0575-4716-8e14-ea11d7a1d67b",
+    "date": "2023-04-03",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "fe6dbd60-22fb-49b8-b295-b1b1e3a85637",
+    "date": "2023-04-02",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "1e17454a-3bf5-4165-8b78-467da1541898",
+    "date": "2023-04-04",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "70d57f7b-0867-4fb7-b9d4-d213769cf03d",
+    "date": "2023-04-27",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "62bf89b6-f69a-4a0f-9a71-b148a2cc3c9c",
+    "date": "2023-04-29",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "3e853b9d-8b87-42fa-9e71-bb9512cde44d",
+    "date": "2023-04-26",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "1dd6518e-f38a-4468-9f87-0db623f150a8",
+    "date": "2023-04-30",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "3846d715-6077-43a2-a04e-c432871077bf",
+    "date": "2023-04-28",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "020182f5-d6f9-4fed-b2e4-5713436289c1",
+    "date": "2023-07-08",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "2208d78f-b40c-43fe-95c0-c380551c27a4",
+    "date": "2023-07-09",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "67ed1663-77ad-4ee1-98ec-7576a3ca9b8c",
+    "date": "2023-05-25",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "bad2edd8-46f1-4d61-b983-ef33265ad867",
+    "date": "2023-05-22",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "cf845051-63bc-4bdd-a71f-b0ee53a469df",
+    "date": "2023-05-23",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "cc19c9c3-52fb-4183-b745-31d529d26431",
+    "date": "2023-05-21",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "ec0ed93e-3884-4e22-96f2-ada838458771",
+    "date": "2023-05-24",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "fb78b43f-7fea-40b3-9b8e-d4ac4e980552",
+    "date": "2024-04-09",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "3d81d2a5-4fee-4530-b040-ecd4c9f41c78",
+    "date": "2024-05-08",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "0d9070c3-8e01-49f5-89a4-5b81b27e7287",
+    "date": "2024-05-09",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "41f12dad-8a92-43e5-b4bf-a1a0820cdea2",
+    "date": "2024-05-10",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "89463f63-97ba-494d-8fe0-9b72ecd407dd",
+    "date": "2024-05-11",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "916d9450-a28d-4f02-af48-21b8d7775342",
+    "date": "2024-06-04",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "3576b3a0-f21b-4ee2-b235-0d68a6c97f48",
+    "date": "2024-06-05",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "ba074161-123e-49ed-be02-be8a7f9bc2bb",
+    "date": "2024-06-06",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "4f8df538-7f29-48e8-888b-b7f6a01ee1cc",
+    "date": "2024-06-07",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "449a3684-04f4-4359-8902-728c398ed27f",
+    "date": "2024-06-08",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "61954ece-83ba-43b6-814f-c9503c0e4305",
+    "date": "2024-04-13",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "36b52855-3540-46e1-b1bd-1ec8b3a57563",
+    "date": "2024-04-12",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "eee862c6-e479-4624-b4ef-d37279fe09d4",
+    "date": "2024-04-11",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "26dc8a40-2d96-467e-ba0d-656a3a5be311",
+    "date": "2024-04-10",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "cb9c1235-08d1-4603-821b-a4175ee45206",
+    "date": "2024-07-31",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "796cad8f-9768-4c46-bcdf-775eedb41dcf",
+    "date": "2024-08-01",
+    "value": {
+      "option": "heavy"
+    }
+  },
+  {
+    "type": "period",
+    "id": "3b73ea80-d1df-4e7a-8c43-404f296cd7db",
+    "date": "2024-08-04",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "533182a4-014b-40bb-9065-f7c70c9febde",
+    "date": "2024-08-02",
+    "value": {
+      "option": "heavy"
+    }
+  },
+  {
+    "type": "period",
+    "id": "e06006e6-6820-4648-bfa7-b6e9992c1d6e",
+    "date": "2024-08-03",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "7f25f6e4-bfcc-469e-bbf7-0901d9d24e7b",
+    "date": "2024-08-31",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "fd154efd-1967-456c-ada9-68b7c9d27968",
+    "date": "2024-08-30",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "dc6ee874-9271-4685-b2f3-e8e78a669b9e",
+    "date": "2024-09-02",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "7875fa80-12a4-485b-a192-c9eaf7c2ec33",
+    "date": "2024-09-01",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "ed437539-cde7-4183-ba5b-6f215c191902",
+    "date": "2024-09-03",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "d753705f-4415-4d58-bfe6-7313d199d6b1",
+    "date": "2024-09-29",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "3d40e23a-804c-407a-a95a-feb6d6a680d0",
+    "date": "2024-10-01",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "241f3bae-c3bb-4c99-93a7-c39bbe4c5ea0",
+    "date": "2024-10-03",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "b09f7056-9df4-4667-9943-c8353227533e",
+    "date": "2024-09-30",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "bb27e240-a3bf-4c21-9072-f1b2d862b540",
+    "date": "2024-10-02",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "af1d4e14-f43c-4af6-9339-15e6783c23b9",
+    "date": "2024-11-01",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "4e78cbeb-dc0c-4490-96e5-75111fd47129",
+    "date": "2024-10-31",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "0f074b7c-9bca-4492-8c68-e318212421a0",
+    "date": "2024-11-02",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "93fb44a0-f197-4896-9d82-d4e0e26d5b59",
+    "date": "2024-11-30",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "6b178907-d20d-4877-a3e1-69814023231c",
+    "date": "2024-12-01",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "17d936c5-bbe7-4d73-93bc-4736b06090e0",
+    "date": "2024-12-03",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "162a3d72-11ea-4cda-9e09-720cbf175daf",
+    "date": "2024-12-02",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "dbb13909-912d-47a1-8e33-250b324e412b",
+    "date": "2024-12-04",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "fc172318-8f45-419e-aa12-9adc69e1b555",
+    "date": "2024-12-28",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "4212b694-a179-42e6-a76a-d941fd633e53",
+    "date": "2024-12-29",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "2ba4fb11-c39c-4294-9364-346d600d004e",
+    "date": "2024-12-30",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "b4aa84fe-8d01-4fc0-95f3-803ab1116b73",
+    "date": "2024-12-31",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "3a932db6-cb2b-4198-b993-742b6b3b13b4",
+    "date": "2025-01-01",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "939d64ec-4684-4e1c-8793-d158aea7795f",
+    "date": "2025-01-24",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "4704bb41-541b-4481-b677-446f7deca9e4",
+    "date": "2025-01-26",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "47f8cddc-d0d2-42a4-9d4b-c2134e138b4e",
+    "date": "2025-01-27",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "9727ef6c-a976-4aa6-9baa-302a7bda14ee",
+    "date": "2025-01-25",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "9f97ffcc-960f-4ec4-b241-a6a47204e16a",
+    "date": "2025-01-23",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "1d89d916-fbf7-4950-89db-216fcdcfbf68",
+    "date": "2025-02-20",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "2d2cc560-5ba8-440e-80fb-04026655c726",
+    "date": "2025-02-21",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "fa805ed5-50d2-4baf-afdf-f3f0552b3e50",
+    "date": "2025-03-21",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "50d0294b-742c-4240-89be-b1105e3988a1",
+    "date": "2025-03-17",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "dca937cb-f2bd-477c-b28e-c69a780c910b",
+    "date": "2025-03-19",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "470eeaa3-2edb-436a-b3de-4acf7a9e524d",
+    "date": "2025-03-20",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "b52670d4-ecfd-4223-8602-63f603a9ebc3",
+    "date": "2025-03-18",
+    "value": {
+      "option": "heavy"
+    }
+  },
+  {
+    "type": "period",
+    "id": "a841dace-664b-4197-8ec3-f2c1a8ebffe8",
+    "date": "2025-03-22",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "d4d4e3a1-c7d2-4323-ac85-de499f490c3b",
+    "date": "2025-04-17",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "cebfb5ca-6e5c-4163-b34a-f9b83666effa",
+    "date": "2025-05-14",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "cbe402e5-8979-4890-aa41-84fb93356127",
+    "date": "2025-04-19",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "84b80cc0-d3bc-4c40-891b-452983f6d98c",
+    "date": "2025-04-18",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "519bf345-1b99-426e-abe3-e70a75f6fcd8",
+    "date": "2025-05-16",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "e8948141-36ef-443b-8045-9f09fcf700e7",
+    "date": "2025-05-17",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "6a288fe6-df0d-472f-943c-8fd4db8595a3",
+    "date": "2025-05-15",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "d181bc97-afae-4ed1-9513-5083318d35d6",
+    "date": "2025-05-18",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "aa89ad9e-decc-4266-aad1-2a56f3baa471",
+    "date": "2025-06-10",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "5dc75751-921e-4e7b-984c-b1530a300b5d",
+    "date": "2025-06-11",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "71fe3ef9-4919-414a-bbde-701dc69adbaa",
+    "date": "2025-06-12",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "91d2410c-bf91-440b-be76-4c5824ff7aef",
+    "date": "2025-06-13",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "1e19d538-b28a-4224-bbc7-1fdd0ae31e36",
+    "date": "2025-06-14",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "76682c46-66de-4879-8994-f6b9a9fa4a52",
+    "date": "2025-07-10",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "654b3926-86ce-4429-a0e2-ab917f189b57",
+    "date": "2025-07-14",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "e61bbe4f-a6af-466c-8895-67f42deeebbe",
+    "date": "2025-07-13",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "7a62ad32-adf0-4dc3-8f7b-eb25de5e2db8",
+    "date": "2025-07-11",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "7c51e72f-02d4-4039-ada5-ca1af6845141",
+    "date": "2025-07-12",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "a2223a1b-e7b2-404c-b4fa-7da10f6775c6",
+    "date": "2025-08-10",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "a73df9f0-7131-49f7-94e1-c60a6d04570d",
+    "date": "2025-08-11",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "99dd0618-10bd-4ad1-86be-f89428445255",
+    "date": "2025-08-12",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "a2fc2624-8850-4762-916a-27fd516e49a3",
+    "date": "2025-08-14",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "208b9842-3f60-447e-93d3-a9fd40eb99da",
+    "date": "2025-08-13",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "d0c63063-0213-4f61-be08-0901baee4fcc",
+    "date": "2025-09-11",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "e84f915c-86e6-4d07-9a69-bbdc388402a5",
+    "date": "2025-09-13",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "f14f8af6-b621-49c7-9d13-b1adf4e8751c",
+    "date": "2025-09-12",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "02997546-ab5e-489e-beac-7abb8bf5147a",
+    "date": "2025-10-09",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "ab5c65b9-e84f-4dca-a33f-c2d0bd27eaef",
+    "date": "2025-10-10",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "8e1395c1-538a-4238-b7fa-0aef54b8773c",
+    "date": "2025-10-11",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "f3852795-4933-4876-8647-b4cca8a4bc03",
+    "date": "2025-10-12",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "536973f5-ce4c-4826-8f62-b927e8587023",
+    "date": "2025-11-11",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "38711e6a-0ebc-42c4-a5cb-540536aad7fa",
+    "date": "2025-11-10",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "3655dc9e-b484-4d10-9219-e55b2156126d",
+    "date": "2025-11-08",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "7f839b8d-9c0a-443e-9146-c87534b7280f",
+    "date": "2025-11-12",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "d5219bb5-af7c-4023-b649-3c40288daac3",
+    "date": "2025-11-13",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "1d484f5b-82d5-41b4-b4f0-3402c8f07161",
+    "date": "2025-11-09",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "4b81c2ce-e18f-4ac0-b122-5c4619bca0dd",
+    "date": "2025-12-08",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "b1d1f7f9-fc3e-4181-83c6-9729b672d9db",
+    "date": "2025-12-09",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "592ff115-6ec6-4949-8a4c-8032f29271e1",
+    "date": "2026-01-07",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "3194eda1-ceb3-433d-9fcc-8dc06390a547",
+    "date": "2026-01-08",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "ac038ead-d204-4cdf-8b0d-b4ec027111c1",
+    "date": "2026-01-06",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "d360f8f4-d187-4116-8419-841d6cfcf7a0",
+    "date": "2026-01-05",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "d73a9147-266b-4776-84ee-e32584947e22",
+    "date": "2026-02-03",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "30c841d9-6d34-4b60-93a6-4f2a002607c8",
+    "date": "2026-02-04",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "632d0607-96bc-4dee-8963-207d6bb459ae",
+    "date": "2026-03-03",
+    "value": {
+      "option": "heavy"
+    }
+  },
+  {
+    "type": "period",
+    "id": "dfd58df6-ed61-4bf9-a7e6-b04468ca35ae",
+    "date": "2026-03-04",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "73c72c2d-9ef2-40f9-9dac-e072b935afa4",
+    "date": "2026-02-06",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "7adbef1f-340d-4d8a-90a1-ebc3c27c9d46",
+    "date": "2026-02-05",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "1c156d7e-0dc9-491f-9084-bf2fe40113c2",
+    "date": "2025-12-11",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "1fc64782-b271-41ea-8bd0-6081787d839c",
+    "date": "2025-12-10",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "a57700ff-072e-41ba-967f-ad343d3b752e",
+    "date": "2025-09-14",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "3145eaa6-3cc8-4b9f-a735-316ab19b44b4",
+    "date": "2026-04-02",
+    "value": {
+      "option": "light"
+    }
+  },
+  {
+    "type": "period",
+    "id": "864a8fc6-a260-49e4-aa51-e0c7ae126f9d",
+    "date": "2026-04-03",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "period",
+    "id": "49e6cedc-ce40-43a9-a920-35684ae3f7d1",
+    "date": "2026-04-04",
+    "value": {
+      "option": "medium"
+    }
+  },
+  {
+    "type": "spotting",
+    "id": "928c76b9-e42a-44ed-bbd5-65eb1f5e0f3d",
+    "date": "2023-04-01",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "d6fb584c-f564-4c4f-b3ea-6dc1869166da",
+    "date": "2024-04-09",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "366e4b9f-71a8-4c63-a47c-017bdc836838",
+    "date": "2024-08-30",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "53be530b-4567-453a-acf4-bcf659475899",
+    "date": "2024-09-29",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "6051524c-2a56-48d3-b716-4bed60091a64",
+    "date": "2024-10-29",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "27cdce71-f049-492f-bde6-f21ff5f50504",
+    "date": "2024-11-29",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "f7aa17a5-9e92-4306-865d-6763dc8eba63",
+    "date": "2024-12-27",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "88f5225e-84b9-4a2e-840d-87e169902602",
+    "date": "2025-03-22",
+    "value": [
+      {
+        "option": "brown"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "50e932ec-a9cc-4a27-b108-254849467abf",
+    "date": "2025-03-23",
+    "value": [
+      {
+        "option": "brown"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "709b4e2a-13f6-4835-82a7-a1772f03d161",
+    "date": "2025-04-16",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "61d48eda-5537-46d7-9bc5-bf1df4da29f1",
+    "date": "2025-06-09",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "46edabe9-9fec-4185-8dcb-ad922f3b9d1e",
+    "date": "2025-07-10",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  },
+  {
+    "type": "spotting",
+    "id": "d90fa4f3-7a76-4590-a2c7-f946b5c57ba0",
+    "date": "2026-03-02",
+    "value": [
+      {
+        "option": "red"
+      }
+    ]
+  }
+]

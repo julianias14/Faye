@@ -34,10 +34,11 @@ function addFlower(cell) {
     img.style.position = "absolute";
     cell.style.position = "relative";
     cell.appendChild(img);
+    console.log("Adding flower to:", cell);
 }
 
 function findCells() {
-  const cells = document.querySelectorAll("div[data-datekey]");
+  const cells = document.querySelectorAll("div[data-datekey][data-dragsource-type]");
 
   cells.forEach(cell => {
     const key = parseInt(cell.getAttribute("data-datekey"));
